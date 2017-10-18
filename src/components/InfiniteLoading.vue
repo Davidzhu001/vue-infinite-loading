@@ -6,10 +6,10 @@
       </slot>
     </div>
     <div class="infinite-status-prompt" v-show="isNoResults">
-      <slot name="no-results">No results :(</slot>
+      <slot name="no-results"></slot>
     </div>
     <div class="infinite-status-prompt" v-show="isNoMore">
-      <slot name="no-more">No more data :)</slot>
+      <slot name="no-more"></slot>
     </div>
   </div>
 </template>
